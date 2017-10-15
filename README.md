@@ -41,7 +41,7 @@ CTEmail 的全称是Charts and Text Email，是一个发送带有图表[注意�
 
 ## 使用
 
-1） 配置脚本
+1） 发送邮件配置脚本
 ```python
 from ctemail import CTEmail
 e = CTEmail('Your email acount', 'Your password')
@@ -51,8 +51,10 @@ e.send_email('Test Email', './content/', ['i@ityike.com'])
 
 2）处理数据，生成图片
 
-在这里可以有自己处理数据的逻辑，最终还可以增加生成`conten/index.html`模板文件的逻辑
+在这里可以有自己处理数据的逻辑，最终还可以增加生成`conten/index.html`内容的逻辑。
+我的做法是“处理数据->生成图片->拼接`conten/index.html`内容->写入`conten/index.html`”
 
+生成图片的demo:
 ```python
 import plotly.plotly as py
 import plotly.graph_objs as go

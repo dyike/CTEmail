@@ -85,7 +85,8 @@ py.image.save_as(fig, filename='./content/image.png')
 python send.py
 ```
 
-最终的效果图：
+## 最终的效果图
+
 ![demo](https://raw.githubusercontent.com/dyike/CTEmail/master/images/demo.jpeg)
 
 

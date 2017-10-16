@@ -71,14 +71,10 @@ py.image.save_as(fig, filename='./content/image.png')
 
 3）说明邮件的模板文件
 
-使用标签<EMAIL_IMG>将img标签包起来，确保能够被正确的解析替换。
+使用标签<EMAIL_IMG>将img标签包起来，同时多个图片文件需要换行添加，如下所示。这样能确保被正确的解析替换。
 ```html
-    <a>
-        <EMAIL_IMG><img src="image1.png"></EMAIL_IMG>
-    </a>
-    <a>
-        <EMAIL_IMG><img src="image2.png"></EMAIL_IMG>
-    </a>
+    <a><EMAIL_IMG><img src="image1.png"></EMAIL_IMG></a>
+    <a><EMAIL_IMG><img src="image2.png"></EMAIL_IMG></a>
 ```
 
 4）发送邮件

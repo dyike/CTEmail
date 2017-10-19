@@ -1,17 +1,17 @@
-## Interduction 
+# Interduction 
 
 CTEmail is a Charts and Text Email script, which can send email with chart pictures in email content body not email attachment.
 
 [Here is a tutorial in Chinese](https://www.dyike.com/2017/10/16/charts-and-text-email-tutorial/)
 
-### Why make this tool?
+## Why make this tool?
 * As a programmer, we hope to complete everything automatically by scripts, such as send report email daily.
 * In business, we cooperate with some friends. Sometimes we exchange the report with data, where we can use charts and suitable text to display.
 * We can find some pictures in some emails, but those pictures are manual and the email is also manual.
 * These are all things that we needs.
 
 
-### Who can use it?
+## Who can use it?
 
 * Product manager, CTEmail is one of the best practices!
 * Operating Officer, CTEmail is one of the best practices!

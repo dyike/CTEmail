@@ -37,7 +37,7 @@ CTEmail is a Charts and Text Email script, which can send email with chart pictu
 ```
 
 * Under the `content` folder, you will see the `index.html` file, which is the content of email. Also this folder include the images(charts) resources.
-* `ctemail.py` is the `CTEmail` class writen by Python script.
+* `ctemail.py` is the `CTEmail` class written by Python script.
 * `send.py` is the script to send email and configures of email account.
 * `get_img.py` can generate the chart images by plotly.
 

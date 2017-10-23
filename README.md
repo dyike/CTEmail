@@ -85,7 +85,7 @@ py.image.save_as(fig, filename='./content/image.png')
 
 ### Fourth Step:
 
-In the email templete file, you will see the `<EMAIL_IMG>` tag. It is essential! The script will find the tag to parse. If you want to add two or more images, you should do as follows:
+In the email template file, you will see the `<EMAIL_IMG>` tag. It is essential! The script will find the tag to parse. If you want to add two or more images, you should do as follows:
 
 ```html
     <a><EMAIL_IMG><img src="image1.png"></EMAIL_IMG></a>
